@@ -1,0 +1,85 @@
+<!DOCTYPE html> 
+<html>
+<head>
+<meta charset="utf-8">
+<title>Aplic. Web de jQuery Mobile</title>
+<link href="jquery-mobile/jquery.mobile.theme-1.0.min.css" rel="stylesheet" type="text/css"/>
+<link href="jquery-mobile/jquery.mobile.structure-1.0.min.css" rel="stylesheet" type="text/css"/>
+<script src="jquery-mobile/jquery-1.6.4.min.js" type="text/javascript"></script>
+<script src="jquery-mobile/jquery.mobile-1.0.min.js" type="text/javascript"></script>
+</head> 
+<body> 
+
+<div data-role="page" id="page">
+	<div class="ui-bar-b" data-role="header">
+		<h1>HAMBURGUESAS</h1>
+	</div>
+	<div class="ui-btn-up-e" data-role="content">	
+    <br>
+    <br>
+    <center><img src="kk.jpg" width="390" height="253"></center>
+    <br>
+    <br>
+		<ul data-role="listview">
+			<li><a href="#page2">MENÚ</a></li>
+            <li><a href="#page3">DOMICILIO</a></li>
+			<li><a href="#page4">CONTACTANOS</a></li>
+		</ul>		
+	</div>
+	<div class="ui-bar-b" data-role="footer">
+	  <h4>Pie de página</h4>
+	</div>
+</div>
+
+<div data-role="page" id="page2">
+	<div class="ui-bar-e" data-role="header">
+		<a href="#page">volver</a><h1>MENÚ</h1>
+        </div>
+	<div class="ui-bar-d" data-role="content">	
+		 <center>
+		   <p class="ui-btn-active"><img src="MM.png" width="1650" height="1275"></p>
+		 </center>		
+	</div>
+	<div class="ui-bar-e" data-role="footer">
+	  <h4>Pie de página</h4>
+	</div>
+</div>
+
+<div data-role="page" id="page3">
+	<div class="ui-body-e" data-role="header">
+		<a href="#page">volver</a><h1>DOMICILIO</h1>
+	</div>
+	<div class="ui-bar-d" data-role="content">	
+	  <center>
+	    <p class="ui-btn-active"><img src="HH.jpg" width="635" height="325"></p>
+	  </center>	
+         nos encontramos ubicados en el centro de huauchi
+	</div>
+	<div class="ui-body-e" data-role="footer">
+		<h4>Pie de página</h4>
+	</div>
+</div>
+
+<div data-role="page" id="page4">
+	<div class="ui-bar-c" data-role="header">
+		<a href="#page">volver</a><h1 class="ui-body-c">CONTACTANOS</h1>
+	</div>
+	<div class="ui-body-a" data-role="content">	
+		 <center><img src="F.png" width="351" height="267"></center>
+         <CENTER>FACEBOOK:
+         HAMBURGUESASKK@HOTMAIL.COM</CENTER>	
+          <center>
+            <p class="ui-body-a"><img src="W.jpg" width="304" height="249"></p>
+          </center>	
+          <CENTER>
+            <p class="ui-body-a">WHATSAPP:
+          6666666666</p>
+          </CENTER>
+	</div>
+	<div data-role="footer">
+		<h4 class="ui-body-c">Pie de página</h4>
+	</div>
+</div>
+
+</body>
+</html>
